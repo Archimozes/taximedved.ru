@@ -1062,10 +1062,12 @@ nav.nav ul li a.mPS2id-highlight{color:#c13434}
 .tarif_items{margin-top:75px;flex-basis:32%;background-color:#f5f4f2;padding:120px 40px 25px;text-align:center;position:relative;transition:.3s}
 .tarif_items:before{right:-35px;bottom:-7px;position:absolute;width:0;height:0;border-left:55px solid transparent;border-right:55px solid transparent;border-top:55px solid #000;transform:rotate(-45deg);color:#ffc61a;content:'';opacity:0}
 .tarif_items:after{right:12px;bottom:9px;position:absolute;font-size:1.875rem;content:'\f005';font-family:fontawesome;color:#ffc61a;opacity:0}
-.tarif_items:hover{background-color:#c13434}
+
+/* Убрал выделение тарифа */
+/* .tarif_items:hover{background-color:#c13434}
 .tarif_items:hover:after,.tarif_items:hover:before{opacity:1}
 .tarif_items:hover .tarif_price{color:#000}
-.tarif_items:hover .sector_button{color:#fff;background-color:#1b1b1b}
+.tarif_items:hover .sector_button{color:#fff;background-color:#1b1b1b} */
 .tarif_terms{margin-bottom:40px;font-size:1.125rem}
 .tarif_price{font-size:2.5rem;text-transform:uppercase;font-family:LatoBlack,sans-serif;margin-bottom:40px;color:#c13434}
 .tarif_items .sector_button{background-color:#c13434;color:#000;font-weight:800}
