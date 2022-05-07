@@ -305,7 +305,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;bo
 .fa-arrows-h:before{content:"\f07e"}
 .fa-bar-chart-o:before,.fa-bar-chart:before{content:"\f080"}
 .fa-twitter-square:before{content:"\f081"}
-.fa-facebook-square:before{content:"\f082"}
+.fa--square:before{content:"\f082"}
 .fa-camera-retro:before{content:"\f083"}
 .fa-key:before{content:"\f084"}
 .fa-cogs:before,.fa-gears:before{content:"\f085"}
@@ -328,7 +328,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;bo
 .fa-bookmark-o:before{content:"\f097"}
 .fa-phone-square:before{content:"\f098"}
 .fa-twitter:before{content:"\f099"}
-.fa-facebook-f:before,.fa-facebook:before{content:"\f09a"}
+.fa--f:before,.fa-facebook:before{content:"\f09a"}
 .fa-github:before{content:"\f09b"}
 .fa-unlock:before{content:"\f09c"}
 .fa-credit-card:before{content:"\f09d"}
