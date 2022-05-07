@@ -1043,7 +1043,8 @@ nav.nav ul li a.mPS2id-highlight{color:#c13434}
 .header_link,.header_phone{color:#fff;font-size:4.5rem;text-decoration:none;display:block;text-transform:uppercase;transition:.3s}
 .header_link{font-size:1.25rem;line-height:1.2;letter-spacing:16px}
 .header_link:hover,.header_phone:hover{color:gray}
-.yellow_block_wrap{display:flex;justify-content:space-between}
+.yellow_block_wrap{background: url(../img/nine_may.png) center center;background-repeat: no-repeat; height: 420px;}
+/* .yellow_block_wrap{display:flex;justify-content:space-between} */
 .yellow_left{flex-basis:63%;padding-right:215px}
 .yellow_right{flex-basis:37%}
 .yellow_descr{font-size:2.1875rem;font-family:LatoBlack,sans-serif;text-transform:uppercase;margin-bottom:25px}
@@ -1258,7 +1259,7 @@ footer{padding:50px 0 0}
 .header_fon{min-height:487px}
 .header_content_car{background:url(../img/header_fon_car_548.png) center center no-repeat;bottom:-100%;transform:translateY(-105%);left:50%;width:550px;height:322px;margin-left:-275px}
 .block{padding:150px 0 50px}
-.yellow_block_wrap{flex-wrap:wrap}
+/* .yellow_block_wrap{flex-wrap:wrap} */
 .yellow_left,.yellow_right{flex-basis:100%}
 .yellow_left{margin-bottom:40px}
 .tarif_items_car{left:50%;top:50%;margin-left:-183px;margin-top:-125px}
