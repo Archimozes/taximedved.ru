@@ -1220,7 +1220,7 @@ footer{padding:50px 0 0}
 }
 @media (max-width:1024px){
 .yellow_left{flex:0 0 55%;padding-right:80px}
-.yellow_right{flex:0 0 45%}
+.yellow_right{flex:0 0 40%}
 .yellow_title{font-size:3rem}
 .wish_wrap_item_content{padding-left:10px}
 }
