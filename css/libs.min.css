@@ -1058,7 +1058,7 @@ nav.nav ul li a.mPS2id-highlight{color:#c13434}
 .form_book_submit{font-family:BebasNeueBold,sans-serif;font-size:1.8125rem;padding:11px 0;display:block;width:100%;background-color:#131313;color:#fff;text-transform:uppercase;border-radius:10px;cursor:pointer}
 .sector_button{display:inline-block;padding:14px 34px;font-family:BebasNeueBold,sans-serif;font-size:1.8125rem;color:#fff;border-radius:10px;background-color:#000;text-transform:uppercase;text-decoration:none;cursor:pointer}
 .block_tarif{padding:60px 0 80px;text-align:center}
-.tarif_wrap{display:flex;justify-content:space-between}
+.tarif_wrap{display:flex;flex-wrap: wrap; align-content: space-between;}
 .tarif_items{margin-top:75px;flex-basis:32%;background-color:#f5f4f2;padding:120px 40px 25px;text-align:center;position:relative;transition:.3s}
 .tarif_items:before{right:-35px;bottom:-7px;position:absolute;width:0;height:0;border-left:55px solid transparent;border-right:55px solid transparent;border-top:55px solid #000;transform:rotate(-45deg);color:#ffc61a;content:'';opacity:0}
 .tarif_items:after{right:12px;bottom:9px;position:absolute;font-size:1.875rem;content:'\f005';font-family:fontawesome;color:#ffc61a;opacity:0}
