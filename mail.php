@@ -6,6 +6,10 @@ $subject   = "Заказ с сайта https://TaxiMedved.ru/";
 
 $name = trim($_POST["name"]);
 $phone = trim($_POST["phone"]);
+$from = trim($_POST["from"]);
+$to = trim($_POST["to"]);
+$time = trim($_POST["time"]);
+$service = trim($_POST["service"]);
 $messagesite = trim($_POST["messagesite"]);
 
 
