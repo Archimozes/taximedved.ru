@@ -305,7 +305,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;bo
 .fa-arrows-h:before{content:"\f07e"}
 .fa-bar-chart-o:before,.fa-bar-chart:before{content:"\f080"}
 .fa-twitter-square:before{content:"\f081"}
-.fa--square:before{content:"\f082"}
+.fa-facebook-square:before{content:"\f082"}
 .fa-camera-retro:before{content:"\f083"}
 .fa-key:before{content:"\f084"}
 .fa-cogs:before,.fa-gears:before{content:"\f085"}
@@ -328,7 +328,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;bo
 .fa-bookmark-o:before{content:"\f097"}
 .fa-phone-square:before{content:"\f098"}
 .fa-twitter:before{content:"\f099"}
-.fa--f:before,.fa-facebook:before{content:"\f09a"}
+.fa-facebook-f:before,.fa-facebook:before{content:"\f09a"}
 .fa-github:before{content:"\f09b"}
 .fa-unlock:before{content:"\f09c"}
 .fa-credit-card:before{content:"\f09d"}
@@ -1043,8 +1043,7 @@ nav.nav ul li a.mPS2id-highlight{color:#c13434}
 .header_link,.header_phone{color:#fff;font-size:4.5rem;text-decoration:none;display:block;text-transform:uppercase;transition:.3s}
 .header_link{font-size:1.25rem;line-height:1.2;letter-spacing:16px}
 .header_link:hover,.header_phone:hover{color:gray}
-.yellow_block_wrap{background: url(../img/nine_may.png) center center;background-repeat: no-repeat; height: 525px;}
-/* .yellow_block_wrap{display:flex;justify-content:space-between} */
+.yellow_block_wrap{display:flex;justify-content:space-between}
 .yellow_left{flex-basis:63%;padding-right:215px}
 .yellow_right{flex-basis:37%}
 .yellow_descr{font-size:2.1875rem;font-family:LatoBlack,sans-serif;text-transform:uppercase;margin-bottom:25px}
@@ -1221,7 +1220,7 @@ footer{padding:50px 0 0}
 }
 @media (max-width:1024px){
 .yellow_left{flex:0 0 55%;padding-right:80px}
-.yellow_right{flex:0 0 40%}
+.yellow_right{flex:0 0 45%}
 .yellow_title{font-size:3rem}
 .wish_wrap_item_content{padding-left:10px}
 }
@@ -1238,7 +1237,6 @@ footer{padding:50px 0 0}
 @media (max-width:980px){
 .container,.container_wrap{max-width:880px}
 .header_content_car{background:url(../img/header_fon_car_992.png) center center no-repeat;bottom:-15%;left:50%;width:750px;height:439px;margin-left:-375px}
-/* .yellow_block_wrap{background: url(../img/nine_may/750х1334.png) center center no-repeat;} */
 }
 @media (max-width:834px){
 .top_line_menu{display:none}
@@ -1258,10 +1256,9 @@ footer{padding:50px 0 0}
 .nenu_humburger{z-index:2}
 .menu ul li a{display:block;padding-left:auto;padding-right:auto}
 .header_fon{min-height:487px}
-.header_content_car{background:url(../img/header_fon_car_548.png) center center no-repeat;bottom:-100%;transform:translateY(-80%);left:50%;width:550px;height:322px;margin-left:-275px}
-/* .yellow_block_wrap{background: url(../img/nine_may/720х1280.png) center center no-repeat;} */
+.header_content_car{background:url(../img/header_fon_car_548.png) center center no-repeat;bottom:-100%;transform:translateY(-105%);left:50%;width:550px;height:322px;margin-left:-275px}
 .block{padding:150px 0 50px}
-/* .yellow_block_wrap{flex-wrap:wrap} */
+.yellow_block_wrap{flex-wrap:wrap}
 .yellow_left,.yellow_right{flex-basis:100%}
 .yellow_left{margin-bottom:40px}
 .tarif_items_car{left:50%;top:50%;margin-left:-183px;margin-top:-125px}
@@ -1275,11 +1272,9 @@ footer{padding:50px 0 0}
 .container,.container_wrap{max-width:100%;width:100%;padding-left:15px;padding-right:15px}
 .slick-slider{max-width:100%;margin:0 auto}
 .bookacab_block_title,.form_book{width:100%;margin:0 auto}
-.yellow_block_wrap{background: url(../img/nine_may/540х960.png) center center no-repeat; width: 514px; height: 253px;}
 }
 @media (max-width:480px){
-.header_content_car{background:url(../img/header_fon_car_320.png) center center no-repeat;bottom:-100%;transform:translateY(-135%);left:50%;width:320px;height:187px;margin-left:-169px}
-.yellow_block_wrap{background: url(../img/nine_may/320х480.png) center center no-repeat; width: 320px; height: 150px;margin-top: 50px;}
+.header_content_car{background:url(../img/header_fon_car_320.png) center center no-repeat;bottom:-100%;transform:translateY(-164%);left:50%;width:320px;height:187px;margin-left:-169px}
 .nav{width:70%}
 body,html{overflow-x:hidden}
 .menu__list{width:440px}
@@ -1290,7 +1285,7 @@ body,html{overflow-x:hidden}
 .best_item_list{flex-wrap:wrap}
 .best_item_list li{margin-right:0;margin-bottom:10px}
 .header_fon{min-height:403px}
-.block{padding:130px 0 50px}
+.block{padding:90px 0 50px}
 .yellow_title{font-size:2.55rem}
 .yellow_left{padding-right:0}
 .tarif_items_car{margin-top:-170px}
