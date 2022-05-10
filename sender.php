@@ -1,47 +1,35 @@
 <?php
-
-// получение данных с формы
-$name = $_POST['name'];
-$tel = $_POST['tel'];
-$from = $_POST['from'];
-$to = $_POST['to'];
-$time = $_POST['time'];
-$sevice = $_post['sevice'];
-
-// Обработка полученных данных
-$name = htmlspecialchars($name);  // преобразование символов в сущности (мнемоники)
-$tel = htmlspecialchars($tel);
-$from = htmlspecialchars($from);
-$to = htmlspecialchars($to);
-$time = htmlspecialchars($time);
-$service = htmlspecialchars($service);
-
-$name = urldecode($name);  // Декодирование URL
-$tel = urldecode($tel);
-$from = urldecode($from);
-$to = urldecode($to);
-$time = urldecode($time);
-$service = urldecode($service);
-
-$name = trim($name);  // удаление пробельных символов с обоих сторон
-$tel = trim($tel);
-$from = trim($from);
-$to = trim($to);
-$time = trim($time);
-$service = trim($service);
-
-// Отправляем данные на почту
-if(mail("Jokerus@inbox.ru",
-        "Заказ такси с сайта TaxiMedved.ru",
-        "Имя: ".$name."\n".
-        "Телефон: ".$tel."\n". 
-        "Адрес подачи машины: ".$from."\n". 
-        "Куда ехать: ".$to."\n". 
-        "День и время подачи: ".$time."\n". 
-        "Тариф: ".$service. "\r \n")
-){echo ('Заказ принят! В ближайшее время с Вами свяжуться наши операторы!');
-}else{
-    echo('Имеются ошибки! Проверьте данные...');
-}
-
+/* Здесь проверяется существование переменных */
+if (isset($_POST['name'])) {$name = $_POST['name'];}
+if (isset($_POST['phone'])) {$phone = $_POST['phone'];}
+ 
+/* Сюда впишите свою эл. почту */
+$myaddres  = "jokerus@inbox.ru"; // кому отправляем
+ 
+/* А здесь прописывается текст сообщения, \n - перенос строки */
+$mes = "Тема: Заказ обратного звонка!\nТелефон: $phone\nИмя: $name";
+ 
+/* А эта функция как раз занимается отправкой письма на указанный вами email */
+$sub='Заказ'; //сабж
+$email="jokerus@inbox.ru"; // от кого
+$send = mail ($myaddres,$sub,$mes,"Content-type:text/plain; charset = utf-8\r\nFrom:$email");
+ 
+ini_set('short_open_tag', 'On');
+header('Refresh: 3; URL=index.html');
 ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="refresh" content="3; url=index.html">
+<title>Спасибо! Мы свяжемся с вами!</title>
+<meta name="generator">
+<script type="text/javascript">
+setTimeout('location.replace("/index.html")', 3000);
+/*Изменить текущий адрес страницы через 3 секунды (3000 миллисекунд)*/
+</script> 
+</head>
+<body>
+<h1>Спасибо! Мы свяжемся с вами!</h1>
+</body>
+</html>
