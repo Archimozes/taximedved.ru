@@ -1255,9 +1255,9 @@ footer{padding:50px 0 0}
 .menu__list--active{display:flex;z-index:1}
 .nenu_humburger{z-index:2}
 .menu ul li a{display:block;padding-left:auto;padding-right:auto}
-.header_fon{min-height:487px}
+.header_fon{min-height:525px}
 .header_content_car{background:url(../img/header_fon_car_548.png) center center no-repeat;bottom:-100%;transform:translateY(-105%);left:50%;width:550px;height:322px;margin-left:-275px}
-.block{padding:150px 0 50px}
+.block{padding:255px 0 50px}
 .yellow_block_wrap{flex-wrap:wrap}
 .yellow_left,.yellow_right{flex-basis:100%}
 .yellow_left{margin-bottom:40px}
@@ -1284,8 +1284,8 @@ body,html{overflow-x:hidden}
 .header_link{font-size:.7rem}
 .best_item_list{flex-wrap:wrap}
 .best_item_list li{margin-right:0;margin-bottom:10px}
-.header_fon{min-height:403px}
-.block{padding:90px 0 50px}
+.header_fon{min-height:440px}
+.block{padding:165px 0 50px}
 .yellow_title{font-size:2.55rem}
 .yellow_left{padding-right:0}
 .tarif_items_car{margin-top:-170px}
