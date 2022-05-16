@@ -1094,8 +1094,8 @@ nav.nav ul li a.mPS2id-highlight{color:#c13434}
 .best_item_desc{font-size:1.125rem;margin-bottom:54px;text-align:left}
 .best_item_list{list-style:none;display:flex}
 .best_item_list li{margin-right:12px}
-.google_button{background:url(../img/google-button.png) center center/210px 65px no-repeat;width:210px;height:65px;display:block}
-.apple_button{background:url(../img/apple-button.png) center center/cover no-repeat;width:210px;height:65px;display:block}
+.google_button{background:url(../img/google-button.png) center center no-repeat;width:210px;height:65px;display:block}
+/* .apple_button{background:url(../img/apple-button.png) center center/cover no-repeat;width:210px;height:65px;display:block} */
 .block_or{background-color:#c13434;padding:70px 0 95px;text-align:center}
 .block_or .wish_title{margin-bottom:40px;color:#000;font-family:LatoBlack,sans-serif}
 .block_or .header_phone{color:#000;font-family:LatoBlack,sans-serif}
