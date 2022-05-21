@@ -12,8 +12,6 @@ $time = trim($_POST["time"]);
 $service = trim($_POST["service"]);
 $messagesite = trim($_POST["messagesite"]);
 
-
-
 $message = "
 Имя обратившегося: $name <br>
 Номер телефона: $phone <br>
