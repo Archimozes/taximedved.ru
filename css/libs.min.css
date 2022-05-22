@@ -858,6 +858,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;bo
 .fa-superpowers:before{content:"\f2dd"}
 .fa-wpexplorer:before{content:"\f2de"}
 .fa-meetup:before{content:"\f2e0"}
+.feedback_input{width: 100%; height: 130px; margin-bottom: 15px;}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
 .sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}
 .slick-slider{position:relative;display:block;box-sizing:border-box;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;touch-action:pan-y;-webkit-tap-highlight-color:transparent}
@@ -1102,7 +1103,7 @@ nav.nav ul li a.mPS2id-highlight{color:#c13434}
 .block_or .header_phone{color:#000;font-family:LatoBlack,sans-serif}
 .block_testimonials{background:url(../img/testimonials-fon.jpg) center center/cover no-repeat fixed;position:relative;padding:100px 0 75px;text-align:center}
 .block_testimonials:before{content:'';background-color:rgba(15,15,15,.5);width:100%;height:100%;top:0;left:0;position:absolute}
-.item-trademark{padding:40px 52px 50px;background-color:#040707;color:#fff;border-radius:30px}
+.item-trademark{padding:40px 52px 50px;margin-top: 25px; background-color:#040707;color:#fff;border-radius:30px}
 .item-cont{font-size:1.125rem;text-align:left;margin-bottom:20px}
 .item-cont_client{display:flex}
 .item-cont_client img{width:75px;height:75px;border-radius:50%}
